@@ -126,7 +126,7 @@
 /* --------fifth section------- */
 .fi-container{
     margin-top: 10%;
-    background: radial-gradient(#fff , rgb(255, 226, 173));
+    background: radial-gradient(#fff , #ffe2ad);
 }
 .fi-container .row{
     justify-content: center !important;
