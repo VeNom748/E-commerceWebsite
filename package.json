@@ -1,0 +1,16 @@
+{
+  "name": "redstore",
+  "version": "1.0.0",
+  "description": "This is my first E-commerce website Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akash Rajiwale",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodejs": "0.0.0",
+    "pug": "^3.0.2"
+  }
+}

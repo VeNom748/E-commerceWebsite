@@ -1,0 +1,167 @@
+@media only screen and (max-width:1200px){
+    .nav-list ul {
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 74px;
+        right: 0;
+        width: 100vw;
+        align-items: flex-end;
+        transition: all 0.7s ease-in-out;
+        overflow: hidden;
+        max-height:fit-content;
+
+    }
+    .nav-list ul li{
+        margin: 15px 23px;
+    }
+    .nav-list ul li a{
+        color:#cececead;
+        
+    }
+    .si-container .row{
+        /* flex-direction: column; */
+        width: 100%;
+    }
+    .se-col img{
+        width: 120px;
+    }
+    .fo-col-img img {
+        width: 100px;
+    }
+    .white-logo {
+        width: 150px;
+    }
+    .footer p , .footer li{
+        font-size: 12px;
+    }
+    .burger{
+        display: block;
+    }
+    .top{
+        top: -275px !important;
+    }
+
+    .f-container .row{
+        flex-direction: column !important;
+    }
+ 
+
+}
+@media only screen and (max-width:800px){
+
+    /* -------utils------ */
+    p{
+        font-size: 14px;
+    }
+    .row{
+        flex-wrap: wrap;
+        align-items: center;
+        width: 85%;
+    }
+    
+    .btn{
+        display: block;
+        margin: 7% auto;
+
+    }
+    /* --------first section---------- */
+    .f-page-col-img{
+        display: none;
+    }
+    .f-page-col {
+        text-align: center;
+    }
+    .f-page-col h1{
+        font-size: 2rem;
+    }
+
+    
+
+    /* ------second section------- */
+    .s-col{
+        flex-basis: 31%;
+    }
+    .s-container .row {
+        flex-direction: row;
+    }
+
+    /* -----third-section------- */
+    .t-col{
+        flex-basis: 50%;
+    }
+
+    /* fifth-section */
+    .fi-container .row{
+        width: 95%;
+    }
+    .fi-col{
+        flex-basis: 45%;
+    }
+    .fi-col-2{
+        flex-basis: 90%;
+        margin: 4% 0px;
+        text-align: center;
+    }
+    .fi-col-2 h1 {
+        font-size: 20px;
+    }
+    .fi-col-2 small{
+        font-size: 14px;
+    }
+
+    /* --------sixth section-------- */
+    .si-container .row{
+        flex-direction: column;
+        width: 85%;
+    }
+
+    .quote {
+        font-size: 25px;
+    }
+    .si-col p{
+        font-size: 10px;
+    }
+    .si-img img {
+        width: 20%;
+        margin: 0px 0px;
+    }
+
+
+    /* --footer section-------- */
+    .footer-col-1 h2, .footer-col h2 {
+        font-size: 10px;
+    }
+    .footer-col {
+        flex-basis: 50%;
+        margin-top: 5%;
+    }
+    .footer p, .footer li {
+        font-size: 7px;
+        line-height: 12px;
+    }
+    .fo-col-img img {
+        width: 50px;
+    }
+    .white-logo {
+        width: 75px;
+        margin: 0px 0px;
+    }
+    .footer-col-1 ul {
+        margin-top: 5px;
+    }
+
+
+    /* ------products css-- */
+    .all-products h1 {
+
+        font-size: 16px;
+    }
+    .sort-menu p{
+        font-size: 10px;
+    }
+    .sort-menu select {
+        padding: 0px 5px;
+        font-size: 8px;
+    }
+}

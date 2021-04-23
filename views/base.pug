@@ -1,0 +1,49 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title RedStore | E-Commerce Website
+        link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous")
+        style
+            include ../static/css/utils.css
+            include ../static/css/style.css
+            include ../static/css/mobile.css
+            
+    body
+        block content
+           
+        //- ----------eight section-----
+        div.footer
+            div.row
+                div.footer-col
+                    h2 Download Our App
+                    p Download Our app for Android and IOS mobile phones
+                    div.fo-col-img
+                        img(src="/static/images/play-store.png", alt="")
+                        img(src="/static/images/app-store.png", alt="")
+                div.footer-col
+                    img(src="/static/images/logo-white.png", alt="" class="white-logo")
+                    p Our purpose is To Sustainably Make the Pleasure and #[br] Benefits of Sports Accessible to The Many
+                div.footer-col-1
+                    h2 Usefull Links
+                    ul
+                        li Coupons
+                        li Blog Post
+                        li Return policy
+                        li Join affiliate
+                div.footer-col-1
+                    h2 Follow Us
+                    ul
+                        li Facebook
+                        li Twitter
+                        li Instagram
+                        li YouTube
+            div.hr-line
+                hr
+                p copyright &copy; All Rights reserved | Akash Rajiwale
+
+        script
+            include ../static/js/index.js
+
+
