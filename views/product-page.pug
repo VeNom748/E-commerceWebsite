@@ -12,7 +12,8 @@ block content
                         li #[a(href="/") About]
                         li #[a(href="/") Contact]
                         li #[a(href="/account") Account]
-                    img(src="/static/images/cart.png", alt="" , href="/cart-page")
+                    a(href="/cart-page") 
+                        img(src="/static/images/cart.png", alt="")
                     img(src="/static/images/menu.png", alt="" class="burger" )
     //- ----------single-product- details-------
 
@@ -84,4 +85,6 @@ block content
                     <i class="fas fa-star-half-alt"></i>
                     <i class="far fa-star"></i>
                 h3 Rs 1299.00
-        
+block script
+    script
+        include ../static/js/index.js

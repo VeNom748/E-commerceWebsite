@@ -12,7 +12,8 @@ block content
                         li #[a(href="/") About]
                         li #[a(href="/") Contact]
                         li #[a(href="/account") Account]
-                    img(src="/static/images/cart.png", alt="" , href="/cart-page")
+                    a(href="/cart-page") 
+                        img(src="/static/images/cart.png", alt="")
                     img(src="/static/images/menu.png", alt="" class="burger" )
     div.account-container
         div.row
@@ -34,3 +35,7 @@ block content
                             input(type="email",placeholder="Enter Your email")
                             input(type="password",placeholder="Enter Password")
                             button(type="submit",class="btn") Regester 
+
+block script
+    script
+        include ../static/js/imgslider.js

@@ -30,5 +30,5 @@ app.get("/account",(req,res)=>{
 
 
 app.listen(port,()=>{
-    console.log("RedStore Website online at http://localhost")
+    console.log(`RedStore Website online at http://localhost:${port}`)
 })
