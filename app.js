@@ -1,5 +1,6 @@
 const express = require("express");
 const path = require("path");
+const port = process.env.PORT || 8000;
 
 const app = express();
 
@@ -17,8 +18,17 @@ app.get("/",(req,res)=>{
 app.get("/products",(req,res)=>{
     res.status(200).render("products.pug");
 });
+app.get("/product-page",(req,res)=>{
+    res.status(200).render("product-page.pug");
+});
+app.get("/cart-page",(req,res)=>{
+    res.status(200).render("cart-page.pug");
+});
+app.get("/account",(req,res)=>{
+    res.status(200).render("account.pug");
+});
 
 
-app.listen(80,()=>{
+app.listen(port,()=>{
     console.log("RedStore Website online at http://localhost")
 })

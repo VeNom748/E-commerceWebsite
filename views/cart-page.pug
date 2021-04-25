@@ -1,0 +1,75 @@
+extends base.pug
+block content
+    div.container-2
+        div.f-container
+            nav.navbar
+                div.logo
+                    img(src="/static/images/logo.png", alt="")
+                div.nav-list
+                    ul.list-items.top
+                        li #[a(href="/") Home]
+                        li #[a(href="/products") Products]
+                        li #[a(href="/") About]
+                        li #[a(href="/") Contact]
+                        li #[a(href="/account") Account]
+                    img(src="/static/images/cart.png", alt=""  , href="/cart-page")
+                    img(src="/static/images/menu.png", alt="" class="burger" )
+
+    div.cart-container
+        div.cart-table
+            table
+
+                tr 
+                    th Products
+                    th Quntity
+                    th price
+                
+                tr
+                    td  
+                        div.cart-product
+                            img(src="/static/images/product-1.jpg", alt="")
+                            div.cart-product-details
+                                p Red Printed Tshirt
+                                small Rs 399.00
+                                a(href="/" , class="remove-btn") remove
+                        
+                    td 
+                        input(type="number")
+                    
+                    td 
+                        p 399.00
+                tr
+                    td  
+                        div.cart-product
+                            img(src="/static/images/product-5.jpg", alt="")
+                            div.cart-product-details
+                                p Ak's Sport Shooes
+                                small Rs 899.00
+                                a(href="/" , class="remove-btn") remove
+                    td 
+                        input(type="number")
+                    td 
+                        p 899.00   
+                tr
+                    td  
+                        div.cart-product
+                            img(src="/static/images/product-12.jpg", alt="")
+                            div.cart-product-details
+                                p Black Printed Track Pant
+                                small Rs 399.00
+                                a(href="/" , class="remove-btn") remove
+                    td 
+                        input(type="number")
+                    td 
+                        p 399.00
+            div.total-table
+                table
+                    tr
+                        td subtotal
+                        td Rs 1497.00
+                    tr  
+                        td tax   
+                        td Rs 50.00              
+                    tr  
+                        td Total   
+                        td Rs 1547.00              

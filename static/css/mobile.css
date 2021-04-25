@@ -10,6 +10,7 @@
         transition: all 0.7s ease-in-out;
         overflow: hidden;
         max-height:fit-content;
+        z-index:1;
 
     }
     .nav-list ul li{
@@ -45,6 +46,24 @@
     .f-container .row{
         flex-direction: column !important;
     }
+
+
+    /* --------product pagr css---------- */
+    .p-column{
+        width: 60%;
+    }
+    .p-column h1 {
+        font-size: 30px;
+        margin: 1% 0px;
+    }
+    .p-column p{
+        margin-top: 20px;
+    }
+    .product-page-container .row {
+
+        flex-direction: column;
+    }
+    
  
 
 }
@@ -163,5 +182,62 @@
     .sort-menu select {
         padding: 0px 5px;
         font-size: 8px;
+    }
+
+    /* -----product page css------ */
+    .p-column {
+        width: 100%;
+        margin: 0 0;
+    }
+    .p-column h1 {
+        font-size: 20px;
+
+    }
+    .p-column select {
+        margin: 9px 12px 9px 0px;
+        padding: 7px 3px;
+    }
+    .p-column input {
+        padding: 7px 0px;
+        width: 60px;
+
+    }
+    .p-column p {
+        margin-top: 9px;
+    }
+
+    /* -------cart-page css-------- */
+    .cart-table {
+        width: 90%;
+
+    }
+    .cart-product img {
+        width: 55px;
+
+    }
+    input[type="number"] {
+
+        width: 47px;
+        padding: 4px;
+    }
+
+
+    /* -total-table css */
+    .total-table table {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+
+
+
+
+    /* -----------account page css-------- */
+    .account-container .row{
+        justify-content: center;
+    }
+    .login-box{
+        margin: 5% 0px;
     }
 }

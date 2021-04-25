@@ -38,6 +38,7 @@ hr{
     cursor: pointer;
     transition: 0.7s;
     display: block;
+    width: 165px;
 }
 .btn:hover{
     background-color: #563434;
@@ -63,4 +64,10 @@ hr{
 }
 .burger{
     display: none;
+}
+input[type="number"]{
+    border: 1px solid red;
+    width: 50px;
+    padding: 7px;
+
 }

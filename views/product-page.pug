@@ -1,0 +1,87 @@
+extends base.pug
+block content
+    div.container-2
+        div.f-container
+            nav.navbar
+                div.logo
+                    img(src="/static/images/logo.png", alt="")
+                div.nav-list
+                    ul.list-items.top
+                        li #[a(href="/") Home]
+                        li #[a(href="/products") Products]
+                        li #[a(href="/") About]
+                        li #[a(href="/") Contact]
+                        li #[a(href="/account") Account]
+                    img(src="/static/images/cart.png", alt="" , href="/cart-page")
+                    img(src="/static/images/menu.png", alt="" class="burger" )
+    //- ----------single-product- details-------
+
+    div.product-page-container
+        div.row
+            div.p-column
+                img(src="/static/images/gallery-1.jpg", alt="" , id="main-image")
+                div.sub-images
+                    div.sub-images-col
+                        img(src="/static/images/gallery-2.jpg", alt="" , class="gallery-img")
+                        img(src="/static/images/gallery-3.jpg", alt="" , class="gallery-img")
+                        img(src="/static/images/gallery-4.jpg", alt="" , class="gallery-img")
+                        img(src="/static/images/gallery-1.jpg", alt="" , class="gallery-img")
+            div.p-column
+                p Home/T-shirt
+                h1 Red Printed T-shirt #[br] By HRX
+                h3 Rs 399
+                select
+                    option Select Size
+                    option M
+                    option L
+                    option XL
+                    option XXL
+                    option XXXL
+                input(type="number") 
+                a(href="/cart-page" , class="btn") Add to Cart
+                div.product-details
+                    h3 PRODUCT DETAILS <i class="fas fa-indent"></i>
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sequi nisi saepe doloremque excepturi veniam veritatis voluptatibus iure quaerat reiciendis! Neque vel cumque, distinctio eius vero corrupti saepe accusantium eos illum non. Iste, sapiente.
+    div.t-container
+        div.row 
+            div.t-col
+                img(src="/static/images/product-2.jpg", alt="")
+                h3 HRX clasic Shoes
+                div.col-star
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                h3 Rs 1299.00
+            div.t-col
+                img(src="/static/images/product-3.jpg", alt="")
+                h3 Grey TrackPants
+                div.col-star
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                h3 Rs 799.00
+            div.t-col
+                img(src="/static/images/product-9.jpg", alt="")
+                h3 RoadStar watch
+                div.col-star
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                h3 Rs 1599.00
+            div.t-col
+                img(src="/static/images/product-11.jpg", alt="")
+                h3 HRX classic Shoes              
+                div.col-star
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                h3 Rs 1299.00
+        

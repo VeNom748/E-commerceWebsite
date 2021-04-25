@@ -1,0 +1,36 @@
+extends base.pug
+block content
+    div.container-2
+        div.f-container
+            nav.navbar
+                div.logo
+                    img(src="/static/images/logo.png", alt="")
+                div.nav-list
+                    ul.list-items.top
+                        li #[a(href="/") Home]
+                        li #[a(href="/products") Products]
+                        li #[a(href="/") About]
+                        li #[a(href="/") Contact]
+                        li #[a(href="/account") Account]
+                    img(src="/static/images/cart.png", alt="" , href="/cart-page")
+                    img(src="/static/images/menu.png", alt="" class="burger" )
+    div.account-container
+        div.row
+            div.f-page-col.f-page-col-img
+                img(src="/static/images/image1.png", alt="")
+            div.f-page-col
+                div.login-box
+                    div.login-box-headings
+                        h2#login Login Here
+                        h2#reg Register here
+                    hr.indicator
+                    div.forms
+                        div.login-form
+                            input(type="email",placeholder="Enter Your email")
+                            input(type="password",placeholder="Enter Password")
+                            button(type="submit",class="btn") Login 
+                        div.reg-form
+                            input(type="text",placeholder="Enter Your Full Name")
+                            input(type="email",placeholder="Enter Your email")
+                            input(type="password",placeholder="Enter Password")
+                            button(type="submit",class="btn") Regester 

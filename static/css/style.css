@@ -192,6 +192,7 @@
     cursor: pointer;
     
 }
+
 .se-col img{
     transition: all 0.5s;
     filter:grayscale(100%);
@@ -259,10 +260,181 @@
 .sort-menu{display: flex;}
 .sort-menu p{padding: 0px 9px;}
 .sort-menu select{padding: 0px 9px; outline: none; border: 2px solid var(--primary-color); border-radius: 4px;}
-.footer{
-    margin-top: 5%;
-}
+
 .container-2{
     width: 100%;
     box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+
+
+
+/* -------single product page csss--------- */
+.product-page-container{
+    margin-top: 5%;
+}
+.product-page-container .row{
+    justify-content: center;
+}
+.p-column{
+    flex-basis: 40%;
+    margin: 0px 25px;
+}
+.p-column img{
+    width: 100%;
+}
+.sub-images-col{
+    display: flex;
+    justify-content: space-between;
+}
+.sub-images-col img{
+    width: 24%;
+}
+.p-column h1{
+    margin: 4% 0px;
+    font-size: 40px;
+}
+.p-column h3{
+    font-weight: 500;
+}
+.p-column select {
+    margin: 12px 12px 12px 0px;
+    padding: 12px 15px;
+    border: 1px solid red;
+}
+.p-column input {
+    padding: 12px 0px;
+    width: 60px;
+    border: 1px solid red;
+    text-align: center;
+}
+.product-details h3{
+    margin: 4% 0px;
+}
+
+
+
+
+
+
+/* ----------cart pagecss-------- */
+.cart-table{
+    width: 70%;
+    margin: 5% auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-product{
+    display: flex;
+    
+}
+.cart-product img{
+    width: 80px;
+    margin: 10px 12px 10px 0px;
+}
+.cart-product-details{
+    margin: 10px 12px 10px 0px;
+}
+.remove-btn{
+    font-weight: 500;
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+
+}
+th{
+    text-align: left;
+    background-color: var(--secondary-color);
+    padding: 5px;
+    color: white;
+    font-weight: normal;
+}
+.total-table{
+    display:flex;
+    justify-content: flex-end;
+}
+.total-table table{
+    border-top: 2px solid var(--secondary-color);
+    width: 100%;
+    max-width: 300px;
+    padding-top: 20px;
+}
+.total-table td:last-child{
+    text-align: right;
+}
+.total-table td:first-child{
+    padding-top: 20px;
+}
+
+
+
+
+
+/* -------account-page-css--------- */
+.account-container{
+    background: radial-gradient(#fff , #ffe2ad);
+}
+.login-box{
+    height: 360px;
+    width: 300px;
+    background-color: #fff;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box-headings{
+    display: flex;
+    justify-content: center;
+    padding-top:5%;
+}
+.login-box-headings h2{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px 12px;
+    cursor: pointer;
+}
+.indicator{
+    width: 100px;
+    height:4px;
+    background-color:red;
+    display:block;
+    transform: translateX(152px);
+    transition: all 1s;
+    margin: 5px 0px;
+    border-radius: 30px;
+}
+.login-form{
+    width: 70%;
+    margin: 22% 22%;
+    cursor: pointer;
+    
+}
+.reg-form{
+    width: 70%;
+    margin: 10% 22%;
+    cursor: pointer;
+
+}
+
+.login-form input,.reg-form input{
+    width: 100%;
+    border-radius:2px;
+    padding: 8px 5px;
+    margin: 12px 0px;
+    border: 1px solid black;
+}
+.login-form .btn,.reg-form .btn{
+    margin: 5% auto;
+}
+.forms{
+    display: flex;
+    transform: translateX(-99%);
+    transition:all 1s;
+}
+

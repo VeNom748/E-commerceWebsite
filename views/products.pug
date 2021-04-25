@@ -8,11 +8,12 @@ block content
                 div.nav-list
                     ul.list-items.top
                         li #[a(href="/") Home]
-                        li #[a(href="/") Products]
+                        li #[a(href="/products") Products]
                         li #[a(href="/") About]
                         li #[a(href="/") Contact]
-                        li #[a(href="/") Account]
-                    img(src="/static/images/cart.png", alt="")
+                        li #[a(href="/account") Account]
+                        li #[a(href="/product-page") product-page]
+                    img(href="/cart-page",src="/static/images/cart.png", alt="")
                     img(src="/static/images/menu.png", alt="" class="burger" )
 
     div.t-container
@@ -28,7 +29,7 @@ block content
                     option Ratings
         div.row 
             div.t-col
-                img(src="/static/images/product-1.jpg", alt="")
+                img(src="/static/images/product-1.jpg", alt="" href="/")
                 h3 Red Printed T-shirt 
                 div.col-star
                     <i class="fas fa-star"></i>
